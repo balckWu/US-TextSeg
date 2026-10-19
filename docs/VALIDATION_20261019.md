@@ -1,4 +1,4 @@
-# KBS release validation - 2026-10-19
+# US-TextSeg release validation - 2026-10-19
 
 ## Environment and scope
 
@@ -52,11 +52,11 @@ fingerprints saved in Iris-2D's seed-42 checkpoint match the release exactly.
   support averaging, checkpoint roundtrip, and learning-rate equality with the
   four image baselines.
 - Iris source/protocol preflight passed; launcher dry-run passed.
-- The portable KBS plan generates all twelve paperlab experiments across the
+- The portable experiment plan generates all twelve paperlab experiments across the
   three seeds (36 jobs); the separate Iris launcher supplies the remaining 3 runs.
 
 The old scheduler tests referred to superseded semantic-only/bank ablations and
-fixed GPU IDs. They now validate the actual KBS ablation set and portable recipe.
+fixed GPU IDs. They now validate the reported ablation set and portable recipe.
 The new result tests explicitly check domain balancing, n-1 SD, invalid inputs,
 both historical CSV count-column formats and Iris's K=4 evaluation budget.
 

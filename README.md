@@ -1,16 +1,15 @@
 # US-TextSeg
 
 Implementation for **US-TextSeg: Structured Text-Guided Multi-Domain Ultrasound
-Segmentation with Support-Derived Visual Prototypes**, prepared for
-Knowledge-Based Systems (KBS).
+Segmentation with Support-Derived Visual Prototypes**.
 
 The repository is named **US-TextSeg**, matching the paper's method name.
 The internal `TaskSegment` Python/checkpoint names are retained for compatibility
 with the completed experiments. The manuscript release is
-[`kbs-v9-20261019`](https://github.com/balckWu/US-TextSeg/tree/kbs-v9-20261019).
+[`US-TextSeg`](https://github.com/balckWu/US-TextSeg/tree/US-TextSeg).
 
 The implementation and reproduction records are archived at
-<https://github.com/balckWu/US-TextSeg/tree/kbs-v9-20261019>.
+<https://github.com/balckWu/US-TextSeg/tree/US-TextSeg>.
 The [repository migration record](docs/REPOSITORY_MIGRATION.md) identifies the
 validated source release and documents the naming change.
 
@@ -37,7 +36,7 @@ Use Python 3.10 and install the dependencies in an isolated environment:
 ```bash
 git clone https://github.com/balckWu/US-TextSeg.git
 cd US-TextSeg
-git checkout kbs-v9-20261019
+git checkout US-TextSeg
 pip install -r requirements.txt
 ```
 
@@ -78,7 +77,7 @@ fingerprint checks; use `configs/kbs_3seeds.json` for the portable paperlab plan
 | `tasksegment/` | US-TextSeg model, support protocol, losses and evaluation |
 | `iris2d/` | Server-verified independent Iris-2D implementation |
 | `scripts/` | Training, inference, result verification and setup |
-| `configs/kbs_3seeds.json` | Single-GPU KBS recipe for eight main methods and four ablations |
+| `configs/kbs_3seeds.json` | Single-GPU recipe for eight main methods and four ablations |
 | `configs/iris2d_*.json` | Iris recipe and source/protocol verification |
 | `paper_results/` | Domain-level aggregates only; no patient identifiers |
 | `docs/` | Reproduction guide and server-source/validation records |

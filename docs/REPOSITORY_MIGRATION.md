@@ -5,20 +5,19 @@ Date: 2026-10-19.
 ## Canonical repository
 
 - Repository: <https://github.com/balckWu/US-TextSeg>.
-- Manuscript archive: <https://github.com/balckWu/US-TextSeg/tree/kbs-v9-20261019>.
+- Manuscript archive: <https://github.com/balckWu/US-TextSeg/tree/US-TextSeg>.
 - Paper method name: **US-TextSeg**.
 
 This repository was created at the author's request to align the public repository
 name with the manuscript. It starts from a clean export of the already verified
-KBS v9 source release:
+source release:
 
 - Source repository: <https://github.com/balckWu/TaskSegment>.
 - Source commit: `c7f8971d9c185eb53726e59449361110e09e2218`.
-- Source tag in that repository: `kbs-v9-20261019`.
 
-The tag names identify releases within their respective repositories. The new
-repository has its own commit, including this naming record and updated links.
-The original repository and its published tag are preserved.
+The new repository uses the release tag `US-TextSeg` and has its own commit,
+including this naming record and updated links. The original repository and
+its published source release are preserved.
 
 ## Scope
 

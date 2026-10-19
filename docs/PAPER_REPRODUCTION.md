@@ -1,10 +1,10 @@
-# Reproducing the KBS manuscript
+# Reproducing US-TextSeg
 
 ## Identity of the reported code
 
 Repository: <https://github.com/balckWu/US-TextSeg>.
 Fixed manuscript release:
-<https://github.com/balckWu/US-TextSeg/tree/kbs-v9-20261019>.
+<https://github.com/balckWu/US-TextSeg/tree/US-TextSeg>.
 
 The paper calls the full model **US-TextSeg**. Historical code and checkpoint
 classes still use `TaskSegment`; renaming those would break compatibility.
